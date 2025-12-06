@@ -9,6 +9,7 @@
   ],
   "scripts": {
     "build": "tsc -b",
+    "start": "node run_demo.js",
     "test": "jest",
     "lint": "eslint .",
     "clean": "rm -rf dist node_modules"
