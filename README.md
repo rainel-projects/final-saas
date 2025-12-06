@@ -15,3 +15,26 @@ Local-first, peer-to-peer, autonomous.
 
 ## Documentation
 See [docs/](./docs/) for detailed plans and roadmaps.
+
+## Getting Started
+
+### Prerequisites
+- Node.js v18+
+- npm
+
+### Installation
+```bash
+npm install
+```
+
+### Build
+```bash
+npm run build
+```
+
+### Development
+The project is a monorepo.
+- `src/core`: The main SDK (@nexus/core)
+- `src/node`: The CLI node (coming soon)
+- `src/web`: The dashboard (coming soon)
+
