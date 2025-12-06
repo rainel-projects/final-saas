@@ -1,0 +1,16 @@
+{
+    "name": "@nexus/core",
+    "version": "0.1.0",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc"
+    },
+    "dependencies": {
+        "libp2p": "^0.45.0",
+        "yjs": "^13.6.0"
+    },
+    "devDependencies": {
+        "typescript": "^5.0.0"
+    }
+}
